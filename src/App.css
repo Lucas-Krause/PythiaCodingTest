@@ -1,38 +1,14 @@
-.App {
-  text-align: center;
-}
+@import './css/Card.css';
+@import './css/StocksWatchTable.css';
+@import './css/Button.css';
+@import './css/SideBar.css';
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.layout-main {
+  -moz-transition: 0.42s;
+  -o-transition: 0.42s;
+  -webkit-transition: 0.42s;
+  transition: 0.42s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.layout-main.side-bar-visible {
+  margin-left: 268px;
 }

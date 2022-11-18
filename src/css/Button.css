@@ -1,0 +1,25 @@
+.p-button {
+  background-color: rgb(100, 181, 246);
+  border-color: rgb(100, 181, 246);
+}
+
+.p-button.no-background-button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.p-button.no-background-button:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.p-button.no-background-button .p-button-icon {
+  color: white !important;
+  font-size: x-large;
+}
+
+
+.p-button.no-background-button:hover .p-button-icon {
+  color: rgb(182, 182, 182) !important;
+  font-size: x-large;
+}

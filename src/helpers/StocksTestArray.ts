@@ -1,0 +1,121 @@
+import { StockInfo } from "../types/StockInfo";
+
+export const stocksTestArray: StockInfo[] = [
+  {
+    "id": "INTC",
+    "price": 29.4950008392334,
+    "time": "1668624808000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": -3.956360340118408,
+    "dayVolume": "18864784",
+    "change": -1.2149982452392578,
+    "lastSize": "100",
+    "priceHint": "2"
+  },
+  {
+    "id": "SPY",
+    "price": 395.4849853515625,
+    "time": "1668624809000",
+    "exchange": "PCX",
+    "quoteType": "ETF",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": -0.7540979385375977,
+    "dayVolume": "33014313",
+    "change": -3.0050048828125,
+    "lastSize": "300",
+    "priceHint": "2"
+  },
+  {
+    "id": "TSLA",
+    "price": 188.08999633789062,
+    "time": "1668624809000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": -3.2558388710021973,
+    "dayVolume": "46403428",
+    "change": -6.3300018310546875,
+    "lastSize": "300",
+    "priceHint": "2"
+  },
+  {
+    "id": "MSFT",
+    "price": 242.07839965820312,
+    "time": "1668624807000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": 0.32674640417099,
+    "dayVolume": "11721083",
+    "change": 0.7884063720703125,
+    "lastSize": "",
+    "priceHint": "2"
+  },
+  {
+    "id": "NVDA",
+    "price": 161.28689575195312,
+    "time": "1668624808000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": -3.2239935398101807,
+    "dayVolume": "35898662",
+    "change": -5.37310791015625,
+    "lastSize": "100",
+    "priceHint": "2"
+  },
+  {
+    "id": "GOOG",
+    "price": 99.2698974609375,
+    "time": "1668624807000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": 0.5570261478424072,
+    "dayVolume": "14268659",
+    "change": 0.549896240234375,
+    "lastSize": "700",
+    "priceHint": "2"
+  },
+  {
+    "id": "AMZN",
+    "price": 97.70999908447266,
+    "time": "1668624808000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": -1.2431811094284058,
+    "dayVolume": "58160347",
+    "change": -1.2300033569335938,
+    "lastSize": "100",
+    "priceHint": "2"
+  },
+  {
+    "id": "AMD",
+    "price": 72.52010345458984,
+    "time": "1668624808000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": -5.041114807128906,
+    "dayVolume": "52779351",
+    "change": -3.8498992919921875,
+    "lastSize": "100",
+    "priceHint": "2"
+  },
+  {
+    "id": "META",
+    "price": 112.8499984741211,
+    "time": "1668624808000",
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "marketHours": "REGULAR_MARKET",
+    "changePercent": -3.612916946411133,
+    "dayVolume": "21514457",
+    "change": -4.230003356933594,
+    "lastSize": "100",
+    "priceHint": "2"
+  }
+]

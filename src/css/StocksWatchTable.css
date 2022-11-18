@@ -1,0 +1,19 @@
+.green-text {
+  color: #00873c;
+}
+
+.red-text {
+  color: #eb0f29;
+}
+
+.background-red {
+  background-color: #eb0f2920;
+}
+
+.background-green {
+  background-color: #00873c20;
+}
+
+.flashing-span {
+  padding: 15px;
+}

@@ -1,0 +1,31 @@
+.sidebar {
+  position: fixed;
+  width: 0px;
+  background-color: #1e1e1e;
+  height: 100%;
+  z-index: 999;
+  overflow-y: auto;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-transition: 0.42s;
+  -o-transition: 0.42s;
+  -webkit-transition: 0.42s;
+  transition: 0.42s;
+}
+
+.sidebar.sidebar-active {
+  width: 270px !important;
+  border-right: 1px solid #383838;
+}
+
+.layout-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-logo img {
+  width: 150px;
+}
