@@ -78,7 +78,7 @@ const StocksWatchTable: FC<StocksWatchTableProps> = ({ stocksToSubscribe }) => {
 	useEffect(() => {
 		setTimeout(() => {
 			dispatch(updateLastStocksData(stocksData))
-		}, 5)
+		}, 50)
 	}, [stocksData])
 
 	function getTextClassName(value: number) {
