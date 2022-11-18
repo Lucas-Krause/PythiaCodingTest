@@ -147,7 +147,7 @@ const StocksWatchTable: FC<StocksWatchTableProps> = ({ stocksToSubscribe }) => {
 					/>
 					<Column
 						field="price"
-						header="price"
+						header="Price"
 						sortable
 						body={(stock: StockInfo) => {
 							const className = getBackgroundClassName(
